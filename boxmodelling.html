@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <title>boxmodelling</title>
+    <style>
+
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            border-radius: 10px 50%;
+            border: 5px solid black;  
+            /* transition: width 2s;    */
+
+         }
+
+        
+
+       .myimage{ 
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            box-shadow: 5px 2px;
+            transition: all 5s; 
+        } 
+
+        .mybutton{
+            background-color: purple;
+            color: antiquewhite;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 20px;
+            border: none;
+            font-family:'Times New Roman', Times, serif;
+            box-shadow: 5px 2px;
+            
+
+        }
+
+        .mybutton:hover{
+            background-color: rgb(255, 0, 174);
+            color:black;
+            border-radius: 20px;
+
+        }   
+
+          .box:hover{
+            background-color: rosybrown;
+            border-radius: 10px;
+            border: none; 
+            transition: all 3s;   
+            transition-delay: 2s;
+            transform: rotate(360deg);
+        } 
+
+        .myimage:hover{
+            transform: rotateX(-360deg);  
+           /* transform: scaleY(3);   */
+        } 
+
+        /* a{
+            background-color: rgb(157, 146, 168);
+            text-decoration: none;
+            padding: 5px 20px;
+            border-radius: 5px;
+            font-size: 10px;
+            font-family: sans-serif;
+
+        }   */
+    </style>
+</head>
+<body>
+       <a href="#" class="mybutton" style="text-decoration: none">Hello</a> 
+
+ <button class="mybutton">Home</button> 
+
+<br><br> 
+
+
+<img src="https://www.adotrip.com/public/images/city/master_images/5e4138e6eb7e8-Jaipur_Sightseeing.jpg" class="myimage">
+
+<br>
+<div class="box">
+</div>
+<div class="box">
+</div>
+<div class="box">
+</div>
+</body> 
+
+</html>
